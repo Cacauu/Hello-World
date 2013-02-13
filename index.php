@@ -1,4 +1,5 @@
 <?php
 echo 'This is a test';
-echo 'And this is a second line for the test';
+$config = parse_ini_file('config.ini');
+echo $config['Username'];
 ?>
